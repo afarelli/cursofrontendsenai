@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --varcorprincipal: rgb(184, 134, 11);
+    --varcor2: darkolivegreen;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;/*cor do fundo da pag*/
+    color:white;/* cor da fonte*/
+}
+strong{
+    color:var(--varcor2);/* tudo que for definido como strong será nessa cor */
+}
+.apresentacao{
+    margin:10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.conteudoapres{
+    width: 60%;
+    font-size: 0.75rem;
+}
+.cabecalho-rodape{
+    padding: 0 10% 0 10%;
+}
+.menu{
+    margin-top:5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 10%;
+}
+/*.opmenu{
+
+}*/
+.titdestaque{
+    color: var(--varcorprincipal);
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+    font-size: 2.25rem;
+}
+.destaque{
+    padding: 0px 10px 2px 2px;
+    font-family: "Ubuntu", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+    font-size: 1.13rem;
+}
+.paragrafoprincipal{
+    padding: 0px 30px 2px 2px;
+    font-family: "Ubuntu", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+    font-size: 0.75rem;
+    text-align: justify;
+}
+.foto{
+    width: 40%;
+}
+.botao{
+    text-decoration: none;
+    color:cornsilk;
+    background-color: var(--varcorprincipal);    
+    padding: 12px 24px;/* vertical - horizontal */
+    display: inline-block;
+    font-family: "saira";
+    font-weight: 500;
+    border: 4px solid var(--varcor2);
+    border-radius: 15px;
+    text-align: center;
+    transition: 5;    
+}
+.botao:hover{
+    background-color: rgb(83, 71, 3);
+}
+.iconesbt{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 15% 0% 0%; 
+    gap: 25px;
+}
+.minhasredes{
+    text-decoration: none;
+    color:cornsilk;   
+    font-family: "saira";
+    font-weight: 500; 
+}
+.botoes-nav{
+    padding: 10% 0 0 10%;
+    align-items: center;
+}
+.texto-rodape{
+    text-decoration:solid;
+    /*margin:10%;*/
+    display:flex;    
+    justify-content:center; 
+    font-family: "saira";
+    font-weight: 500;
+    padding: 0 10% 0 10%; 
+    text-align: center;
+}
+.botao-secao{
+    padding: 5% 0% 0% 20%;
+}
+
+@media (max-width: 700px){
+    .cabecalho-rodape{
+    padding: 0 0 0 0;
+    }
+    .menu{
+    margin-top:1%;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    gap: 5%;
+    }
+    .botao{
+    text-decoration: none;
+    color:cornsilk;
+    background-color: var(--varcorprincipal);    
+    padding: 12px 12px;/* vertical - horizontal */
+    display: inline-block;
+    font-family: "saira";
+    font-weight: 500;
+    border: 4px solid var(--varcor2);
+    border-radius: 15px;
+    text-align: center;    
+    }
+    .apresentacao{
+    margin:0%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+}

@@ -3,6 +3,8 @@ Olá! Estes são meus trabalhos feitos durante as aulas do curso de Desenvolvedo
 
 Temos neste repositório os diretórios:
 - **APRESENTACAO** - *um treino sobre HTML, CSS, com comandos para layout, adaptação a vários tamanhos de tela, e muitas outras coisas.*
+- **CAFETERIA** - *site sobre uma cafeteria fictícia para gatos chamada "CAFÉ RESERVA FELINA", um estudo sobre Bootstrap e Javascript, onde demonstro alguns exemplos de layout e scripts, como menu, responsividade, formulário de contato e outras.*
+- **GATINHUGAMES** - *site sobre uma loja nostálgica de videogames chamada "GATINHU GAMES", um estudo em TAILWIND CSS, onde demonstro algumas funções de layout baseadas neste framework.*
 
 Uma especialização é sempre bom, pra gente não apenas fazer, mas saber o que está fazendo!
 

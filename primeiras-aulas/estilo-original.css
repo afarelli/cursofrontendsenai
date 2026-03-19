@@ -1,0 +1,76 @@
+/*Visualização das DIVs*/
+div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.topo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+.empresa{
+    flex:2;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 34px;
+    padding-bottom: 35px;
+}
+.menu{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.itens-menu{
+    background-color: #7DDBCF;
+    flex:1;
+    text-align: center;
+}
+.buscar{
+    background-color: #5093D9;
+    color: white;
+}
+.banner{
+    text-align: center;
+}
+.conteudo{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.descritivo{
+    display: flex;
+    border: 0px;
+    justify-content: center;
+}
+.texto-descritivo{
+    border: 0px;    
+    padding: 0px;;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: center;
+    text-align: left;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.faleconosco{
+    /*flex:1;*/
+    text-align: center;
+}
+.slogan{
+    /*flex:1;*/
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

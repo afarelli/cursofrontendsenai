@@ -1,0 +1,95 @@
+/*Visualização das DIVs*/
+div, header, nav, section, footer{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+main{
+    border: 0px;
+}
+.topo{
+    display: flex;    
+}
+.logo{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+.empresa{
+    flex:1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*padding-left: 15%;
+    padding-right: 15%;*/
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.menu{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.itens-menu{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(13, 3, 68);
+
+}
+.bordas-menu{
+    flex:1;
+    text-align: center;
+    background-color: #7DDBCF;
+}
+.buscar{
+    background-color: #5093D9;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.banner{
+    text-align: center;
+}
+.conteudo{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.descritivo{
+    display: flex;
+    border: 0px;
+    justify-content: center;
+}
+.texto-descritivo{
+    border: 0px;    
+    padding: 0px;;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: center;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.faleconosco{
+    /*flex:1;*/
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.slogan{
+    /*flex:1;*/
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

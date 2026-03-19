@@ -1,0 +1,142 @@
+:root{
+    /*paleta 1*/
+    --marrom: #3E2723;
+    --caramelo: #D4A373;
+    --creme: #FEFAE0;
+
+    /*paleta 2*/
+    --menta: #A3B18A;
+    --laranja: #F48C06;
+    --branco: #F8F9FA;
+
+    /*paleta 3*/
+    --cinza: #343A40;
+    --dourado: #C6AC8F;
+    --offwhite: #E9ECEF;
+
+    /*fonte 1*/
+    --fonte-1: "Playfair Display", serif;
+    --fonte-1-weight: 700;
+    /*fonte 2*/
+    --fonte-2: "Lato", sans-serif;
+
+    /*fonte 3*/
+    --fonte-2: "Lato", sans-serif;
+}
+/*Fontes*/
+
+.playfair-display-catcafe {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+/*Fim das Fontes*/
+
+body{
+    height: 4000px;
+}
+h2{
+    font-family: var(--fonte-1);
+    font-weight: var(--fonte-1-weight);
+}
+h5{
+    font-family: var(--fonte-1);
+    font-weight: var(--fonte-1-weight);
+}
+p{
+    font-family: var(--fonte-2);
+}
+.banners{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-titulo{
+    --bs-bg-opacity: .2;
+}
+.banner-1{
+    background-image: url(../assets/cafecat-1.png);
+}
+.banner-2{
+    background-image: url(../assets/cafecat-2.png);
+}
+.banner-3{
+    background-image: url(../assets/cafecat-3.png);
+}
+
+.zoom-container {
+  overflow: hidden; /* Impede que a foto "saia" do quadrado ao crescer */
+  border-radius: 8px; /* Opcional: deixa as bordas arredondadas */
+}
+
+.zoom-container img {
+  transition: transform .3s ease; /* Faz a animação ser suave */
+}
+
+.zoom-container:hover img {
+  transform: scale(1.1); /* Aumenta a foto em 10% */
+}

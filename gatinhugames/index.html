@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>=^.^= GATINHU GAMES =^.^=</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6">
+    <header class="max-w-6xl mx-auto bg-green-100 rounded-2xl shadow-md shadow-green-800 p-2 m-2">
+        <section class="">
+            <nav class="p-2 text-green-800">
+                <div class="flex justify-between items-center">
+                    <span class="pr-6"><img src="./assets/banner.png" width="360"></span>
+                    <button id="btnMenu" class="md:hidden text-2xl"><img src="./assets/btnmenu.png" width="60"></button> 
+                    <ul class="hidden md:flex gap-6 text-lg font-semibold font-mono">
+                        <li><a href="#" class="hover:text-green-400">Home</a></li>
+                        <li><a href="#assistencia" class="hover:text-green-400">Assistência</a></li>
+                        <li><a href="#jogatina" class="hover:text-green-400">Jogatina</a></li>
+                        <li><a href="#lojinha" class="hover:text-green-400">Lojinha</a></li>
+                        <li><a href="#contato" class="hover:text-green-400">Contato</a></li>
+                    </ul>
+                </div>
+                <ul id="menuMobile" class="hidden md:hidden flex-col mt-4 gap-4 text-right text-lg font-semibold font-mono">
+                    <li><a href="#" class="hover:text-green-400">Home</a></li>
+                    <li><a href="#assistencia" class="hover:text-green-400">Assistência</a></li>
+                    <li><a href="#jogatina" class="hover:text-green-400">Jogatina</a></li>
+                    <li><a href="#lojinha" class="hover:text-green-400">Lojinha</a></li>
+                    <li><a href="#contato" class="hover:text-green-400">Contato</a></li>
+                </ul>                    
+            </nav>
+        </section>
+    </header>
+    <script>
+        let botao = document.getElementById("btnMenu");
+        let menuMobile = document.getElementById("menuMobile");
+        botao.addEventListener("click",function() {
+            menuMobile.classList.toggle("hidden");
+            menuMobile.classList.toggle("flex");
+        });
+    </script>
+    <main>
+        <section id="apresentacao" class="max-w-6xl mx-auto bg-green-200 rounded-2xl shadow-md shadow-green-800 p-2 m-8">
+            <h1 class="font-mono font-bold text-center text-4xl">
+                Gatinhu Games: Onde a Diversão Nunca Dá Game Over!
+            </h1>
+            <p class="font-sans text-center text-xl p-2 pt-8 pb-4">
+                Especialistas em reviver clássicos e turbinar consoles modernos com assistência técnica de mestre!
+            </p>
+            <p class="font-sans text-center text-xl p-2 pb-4">
+                Jogue em nosso Espaço Gamer, explore as melhores prateleiras de títulos e receba um atendimento personalizado de quem entende de pixels!
+            </p>
+            <p class="font-sans text-center text-xl p-2 pb-4">
+                Seu console em boas patas, sua diversão garantida!! :D
+            </p>
+        </section>
+        <section id="assistencia" class="mx-auto bg-green-100 rounded-2xl shadow-md shadow-green-800 p-2 m-8">
+            <h1 class="font-mono font-bold text-center text-4xl py-4">
+                Assistência Técnica Especializada!
+            </h1>
+            <div class="grid grid-cols-2 gap-4">
+                <div><img src="./assets/manutencao.png" class="h-full w-full object-cover object-center"></div>
+                <div class="text-sm sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-sans text-center p-2 pt-8 pb-4 content-center">Na Gatinhu Games, não importa a geração: do lendário Pong ao console mais potente da atualidade, nós damos vida ao seu videogame! Combinamos a paixão pelos clássicos com tecnologia de ponta e ferramentas de última geração para garantir o melhor conserto. Traga seu guerreiro – antigo ou moderno – e deixe a mágica acontecer nas nossas bancadas!</div>  
+            </div>
+        </section>
+        <section id="jogatina" class="mx-auto bg-green-200 rounded-2xl shadow-md shadow-green-800 p-2 m-8">
+             <h1 class="font-mono font-bold text-center text-4xl py-4">
+                Jogue seu Videogame Preferido!
+            </h1>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="text-sm sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-sans text-center p-2 pt-8 pb-4 content-center">
+                    <p class="font-bold pb-4">A Nostalgia das Locadoras Está de Volta!</p>
+                    <p>Lembra daquela emoção de juntar as moedas para alugar uma hora e jogar com os amigos? Na Gatinhu Games, a gente trouxe esse espírito de volta! Nosso Espaço Gamer é um verdadeiro portal no tempo: dos clássicos 8-bits que marcaram época às máquinas de Arcade e Pinball mais iradas.</p>
+                    <p>Escolha seu controle, puxe uma cadeira e venha bater recordes!</p>
+                    <p class="font-bold pt-4">Aqui, a diversão é por hora, mas a nostalgia é eterna!</p>
+                </div>
+                <div><img src="./assets/espacogamer.png" class="h-full w-full object-cover object-center"></div>  
+            </div>           
+        </section>
+        <section id="lojinha" class="mx-auto bg-green-100 rounded-2xl shadow-md shadow-green-800 p-2 m-8">
+            <h1 class="font-mono font-bold text-center text-4xl py-4">
+                Jogos Incríveis! Colecione!!
+            </h1>
+            <div class="grid grid-cols-2 gap-4">
+                <div><img src="./assets/lojagames.png" class="h-full w-full object-cover object-center"></div>
+                <div class="text-sm sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-sans text-center p-2 pt-8 pb-4 content-center">
+                    <p class="font-bold pb-4">Procurando aquele clássico em fita cassete para o seu computador dos anos 80 ou o cartucho de Atari que marcou sua infância? Na Gatinhu Games, a nossa coleção atravessa gerações!</p>
+                    <p>Do magnetismo das fitas ao laser dos CDs de Xbox, temos o maior acervo de jogos físicos da região. Seja para completar sua coleção retrô ou garantir o próximo grande desafio, aqui você encontra o jogo certo para o console que você ama.</p>
+                    <p class="font-bold pt-4">Vem garimpar suas melhores memórias – em todas as plataformas e formatos!</p>
+                </div>  
+            </div>           
+        </section>
+    </main>
+    <footer>
+        <section id="contato" class="mx-auto bg-green-100 rounded-2xl shadow-md shadow-green-800 p-2 m-8">        
+        <details class="group outline-none">            
+            <summary class="list-none cursor-pointer">
+                <h1 class="font-mono font-bold text-center text-4xl py-4 flex justify-center items-center gap-4">
+                    Entre em Contato!!
+                </h1>                    
+                <span class="text-2xl transition-transform duration-300">
+                    <div class="grid grid-cols-3 gap-20 p-2 pb-4">
+                        <div class="text-sm sm:text-xl md:text-2xl lg:text-4xl xl:text-4xl font-sans text-center">
+                            Bora jogar? Chama a GatinhuGames!
+                        </div>
+                        <div>
+                            <p class="flex justify-center"><img src="./assets/faleconosco.png" width="200"></p>
+                        </div>
+                        <div class="text-sm sm:text-xl md:text-2xl lg:text-4xl xl:text-4xl font-sans text-center">
+                            Teremos o maior prazer em atendê-lo!
+                        </div>
+                    </div>
+                </span>                
+            </summary>
+            <div class="flex xs:text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-4xl font-sans text-center justify-center p-2 pb-4">
+                <div>
+                    <p>
+                        <form id="formulario">
+                            <h1 class="font-mono font-bold text-center text-4xl py-4 flex justify-center items-center gap-4">Preencha o formulário e mande para nós!</h1>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">Nome</label>
+                                <input class="border border-slate-300 p-3 focus:outline-none focus:ring-2 focus:ring-red-600 w-full" 
+                                type="text" id="nome" placeholder="Digite seu nome">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">E-mail</label>
+                                <input class="border border-slate-300 p-3 focus:outline-none focus:ring-2 focus:ring-red-600 w-full" 
+                                type="email" id="email" placeholder="Digite seu email">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">Mensagem</label>
+                                <textarea class="border border-slate-300 p-3 h-30 focus:outline-none focus:ring-2 focus:ring-red-600 w-full" 
+                                type="text" id="mensagem" placeholder="Digite uma mensagem"> </textarea>
+                            </div>
+                            <p id="resposta" class="text-sm font-bold text-red-600 mb-2">-</p>
+                            <button type="submit" class="bg-slate-300 px-5 py-3 rounded-lg mt-2">Enviar</button>
+                        </form> 
+                        <script>
+                            const form = document.getElementById("formulario");
+                            const nome  = document.getElementById("nome");
+                            const email  = document.getElementById("email");
+                            const mensagem  = document.getElementById("mensagem");
+                            const resposta = document.getElementById("resposta");
+
+                            form.addEventListener("submit",function(event){
+                                event.preventDefault();
+                                const nomeVar = nome.value.trim();  
+                                const emailVar = email.value.trim(); 
+                                const mensagemVar = mensagem.value.trim(); 
+
+                                if(nomeVar==="" || emailVar==="" || mensagemVar===""){
+                                resposta.textContent = "Preencha os campos.";
+                                resposta.className = "text-sm font-bold text-red-600 mb-2";
+                                return;
+                                }
+
+                                if(!emailVar.includes("@") || !emailVar.includes(".")){
+                                resposta.textContent = "Preencha o campo E-mail corretamente.";
+                                resposta.className = "text-sm font-bold text-red-600 mb-2";
+                                return;
+                                }
+
+                                resposta.textContent = "Formulário Enviado com Sucesso";
+                                resposta.className = "text-sm font-bold text-green-600 mb-2";
+
+                                formulario.reset();
+
+                        });
+                        </script>
+                    </p>
+                </div>                
+            </div>
+        </details>        
+    </section>
+    </footer>
+</body>

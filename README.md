@@ -6,6 +6,8 @@ Temos neste repositório os diretórios:
 - **CAFETERIA** - *site sobre uma cafeteria fictícia para gatos chamada "CAFÉ RESERVA FELINA", um estudo sobre Bootstrap e Javascript, onde demonstro alguns exemplos de layout e scripts, como menu, responsividade, formulário de contato e outras.*
 - **GATINHUGAMES** - *site sobre uma loja nostálgica de videogames chamada "GATINHU GAMES", um estudo em TAILWIND CSS, onde demonstro algumas funções de layout baseadas neste framework.*
 
+As imagens dos projetos foram geradas via *Inteligência Artificial Generativa*, através do *Gemini*, utilizando técnicas de *prompt estruturado*.
+
 Uma especialização é sempre bom, pra gente não apenas fazer, mas saber o que está fazendo!
 
 **Mas lembre-se:** estudar é preciso, e o conhecimento é o único bem que ninguem tira da gente.<br>
